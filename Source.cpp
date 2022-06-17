@@ -539,7 +539,7 @@ int problema4(void) {
 
 	/*
 
-Escriba un programa para leer dos números enteros con el siguiente signicado: el
+Escriba un programa para leer dos números enteros con el siguiente significado: el
 valor del primer número representa una hora del día en un reloj de 24 horas, de modo que 1245
 representa las doce y cuarenta y cinco de la tarde. El segundo entero representa un tiempo de duraci
 ón de la misma manera, por lo que 345 representa tres horas y 45 minutos. El programa debe
@@ -661,7 +661,7 @@ m11 + m12 + m13 + . . . + m21 + m22 + m23. . . = sumatoria.
 m11 representa el primer múltiplo de a y así sucesivamente. m21 representa el primer múltiplo de b
 y así sucesivamente.
 	
-	*\
+	*/
 	
 	int a = 0, b = 0, c = 0, suma = 0, aux = 0;
 	int arreglo[100];
