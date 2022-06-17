@@ -561,7 +561,16 @@ int problema5(void) {
 
 	/*
 
-
+Escriba un programa que muestre el siguiente patrón en la pantalla:
+   *
+  ***
+ *****
+********
+ ******
+  ***
+   *
+El tamaño del patrón estará determinado un número entero impar que ingrese el usuario. En el
+ejemplo mostrado, el tamaño de la figura es 7.
 
 	*/
 	
@@ -577,7 +586,10 @@ int problema6(void) {
 
 	/*
 
+Escriba un programa que encuentre el valor aproximado del número de euler en base
+a la siguiente suma infinita:
 
+El usuario debe ingresar el número de elementos usados en la aproximación.
 
 	*/
 
@@ -621,7 +633,12 @@ int problema7(void) {
 	
 	/*
 
-
+En la serie de Fibonacci, cada número es la suma de los 2 anteriores e inicia con 1 y
+1. Ej: 1, 1, 2, 3, 5, 8, ....
+Escriba un programa que reciba un número n y halle la suma de todos los números pares en la serie
+de Fibonacci menores a n.
+Ej: si se ingresa 10, sería la suma de 2+8 =10
+Nota: el formato de salida debe ser: El resultado de la suma es: 10
 
 	*/
 
@@ -633,6 +650,19 @@ int problema7(void) {
 
 int problema8(void) {
 
+	/*
+	
+	Escriba un programa que reciba 3 números a, b, c, y calcule la suma de todos los
+múltiplos de a y b que sean menores a c. Tenga en cuenta no sumar 2 veces los múltiplos comunes.
+Ej: para a=3, b=5 y c=10. Se sumarían 3+6+9+5=23
+Para a=5, b=7 y c=36. Se sumarían 5+10+15+20+25+30+35+7+14+21+28 = 210.
+Nota: el formato de salida debe ser:
+m11 + m12 + m13 + . . . + m21 + m22 + m23. . . = sumatoria.
+m11 representa el primer múltiplo de a y así sucesivamente. m21 representa el primer múltiplo de b
+y así sucesivamente.
+	
+	*\
+	
 	int a = 0, b = 0, c = 0, suma = 0, aux = 0;
 	int arreglo[100];
 
@@ -680,7 +710,10 @@ int problema9(void) {
 		
 	/*
 
-
+Escriba un programa que pida un número entero N e imprima el resultado de la suma
+de todos sus dígitos elevados a sí mismos.
+Ej: si se ingresa 1223 el resultado sería 11 + 22 + 22 + 33 = 36
+Nota: la salida del programa debe ser: El resultado de la suma es: 36.
 
 	*/
 
@@ -694,7 +727,9 @@ int problema10(void) {
 	
 	/*
 
-
+Escriba un programa que reciba un número n e imprima el enésimo número primo.
+Ej: Si recibe 4 el programa debe imprimir 7.
+Nota: la salida del programa debe ser: El primo numero 4 es: 7.
 
 	*/
 
@@ -736,7 +771,10 @@ int problema11(void) {
 	
 	/*
 
-
+Escriba un programa que reciba un número y calcule el mínimo común múltiplo de
+todos los números enteros entre 1 y el número ingresado.
+Ej: Si se recibe 4 el programa debe imprimir 12.
+Nota: la salida del programa debe ser: El minimo comun multiplo es: 12.
 
 	*/
 
@@ -750,7 +788,9 @@ int problema12(void) {
 	
 	/*
 
-
+Escriba un programa que calcula el máximo factor primo de un número.
+Ej: Si se recibe 33 el programa debe imprimir 11.
+Nota: la salida del programa debe ser: El mayor factor primo de 33 es: 11.
 
 	*/
 
@@ -795,7 +835,10 @@ int problema13(void) {
 	
 	/*
 
-
+Escriba un programa que reciba un número y calcule la suma de todos los primos
+menores que el número ingresado.
+Ej: Si se recibe 10 el programa debe imprimir 17.
+Nota: la salida del programa debe ser: El resultado de la suma es: 17.
 
 	*/
 
@@ -811,7 +854,11 @@ int problema14(void) {
 	
 	/*
 
-
+Un número palíndromo es igual de derecha a izquierda y de izquierda a derecha,
+Ej: 969. escriba un programa que calcule el número palíndromo más grande que se puede obtener
+como una multiplicación de números de 3 dígitos.
+Ej: una de las posibles respuestas es: 143*777=111111.
+Nota: la salida del programa debe ser: 143*777=111111
 
 	*/
 
@@ -889,7 +936,19 @@ int problema15(void) {
 	
 	/*
 
-
+Empezando con el número 1 y moviéndose hacia la izquierda y en sentido horario
+se genera una espiral de números como la siguiente:
+21 22 23 24 25
+20 7 8 9 10
+19 6 1 2 11
+18 5 4 3 12
+17 16 15 14 13
+En el caso de esta espiral de 5x5, la suma de los números en la diagonal es 101.
+Escriba un programa que reciba un número impar n y calcule la suma de los números en la diagonal
+de una espiral de nxn.
+Nota: la salida del programa debe ser:
+En una espiral de 5x5, la suma es: 101.
+Otra nota: se le dará una bonificación si imprime la espiral.
 
 	*/
 
@@ -903,7 +962,15 @@ int problema16(void) {
 	
 	/*
 
-
+La serie de Collatz se conforma con la siguiente regla: sea n un elemento de la serie,
+si n es par, el siguiente elemento es n/2, y si n es impar, el siguiente elemento es 3n+1.
+Escriba un programa que reciba un número k y calcule cual es el elemento inicial j (semilla), menor
+que k, que produce la serie más larga y diga cuantos términos m tiene la serie.
+Tip: la serie termina al llegar a un elemento cuyo valor sea 1.
+Ej: para la semilla 13: 13, 40, 20, 10, 5, 16, 8, 4, 2, 1
+Nota: la salida del programa debe ser:
+La serie mas larga es con la semilla: j, teniendo m terminos.
+Otra nota: se le dará una bonificación si imprime la serie.
 
 	*/
 
@@ -917,7 +984,21 @@ int problema17(void) {
 	
 	/*
 
-
+La secuencia de números triangulares se forma al sumar su posición en el arreglo
+con el valor del número anterior: 1, 1+2=3, 3+3=6, 6+4=10, 10+5=15, 15+6=21, 21+7=28...
+Si listamos los números triangulares y sus divisores tenemos:
+1: 1
+3: 1,3
+6: 1,2,3,6
+10: 1,2,5,10
+15: 1,3,5,15
+21: 1,3,7,21
+28: 1,2,4,7,14,28
+Se observa que 28 es el primer número triangular que tiene más de 5 divisores. Escriba un programa
+que reciba un número k y calcule cual es el primer número triangular que tiene más de k divisores.
+Tip: el enésimo número triangular se puede representar como n*(n+1)/2.
+Nota: la salida del programa debe ser:
+El numero es: 28 que tiene 6 divisores.
 
 	*/
 
