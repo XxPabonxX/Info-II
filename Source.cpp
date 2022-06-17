@@ -339,7 +339,12 @@ int problema1(void) {
 
 	/*
 	
-
+Escriba un programa que identifique si un carácter ingresado es una vocal, una consonante
+o ninguna de las 2 e imprima un mensaje según el caso.
+Nota: el formato de salida debe ser:
+no es una letra.
+a es una vocal.
+C es una consonante.
 	
 	*/
 
@@ -394,7 +399,24 @@ int problema2(void) {
 
 	/*
 
-
+Se necesita un programa que permita determinar la mínima combinación de billetes
+y monedas para una cantidad de dinero determinada. Los billetes en circulación son de $50.000,
+$20.000, $10.000, $5.000, $2.000 y $1.000, y las monedas son de $500, $200, $100 y $50.
+Hacer un programa que entregue el número de billetes y monedas de cada denominación para completar
+la cantidad deseada. Si por medio de los billetes y monedas disponibles no se puede lograr la
+cantidad deseada, el sistema deberá decir lo que resta para lograrla.
+Ej: si se ingresa 47810, el programa debe imprimir:
+50000 : 0
+20000: 2
+10000 : 0
+5000: 1
+2000 : 1
+1000: 0
+500 : 1
+200: 1
+100 : 1
+50: 0
+Faltante: 10
 
 	*/
 
@@ -496,7 +518,14 @@ int problema3(void) {
 
 	/*
 
-
+Escriba un programa que debe leer un mes y un día de dicho mes para luego decir
+si esa combinación de mes y día son válidos. El caso más especial es el 29 de febrero, en dicho caso
+imprimir "posiblemente año bisiesto".
+Nota: el formato de salida debe ser:
+14 es un mes invalido.
+31/4 es una fecha invalida.
+27/4 es una fecha valida.
+29/2 es valida en bisiesto.
 
 	*/
 
@@ -510,7 +539,15 @@ int problema4(void) {
 
 	/*
 
-
+Escriba un programa para leer dos números enteros con el siguiente signicado: el
+valor del primer número representa una hora del día en un reloj de 24 horas, de modo que 1245
+representa las doce y cuarenta y cinco de la tarde. El segundo entero representa un tiempo de duraci
+ón de la misma manera, por lo que 345 representa tres horas y 45 minutos. El programa debe
+sumar esta duración primer número, y el resultado será impreso en la misma notación, en este caso
+1630, que es el tiempo de 3 horas y 45 minutos después de 12:45.
+Nota: el formato de salida debe ser: La hora es 1630.
+Otra nota: se debe imprimir un mensaje como el siguiente cuando uno de los datos ingresados en
+inválido: 1560 es un tiempo invalido.
 
 	*/
 
@@ -522,6 +559,12 @@ int problema4(void) {
 
 int problema5(void) {
 
+	/*
+
+
+
+	*/
+	
 	cout << "Aun no disponible" << endl;
 
 	return 0;
@@ -575,6 +618,12 @@ float factorial(float i) {
 
 
 int problema7(void) {
+	
+	/*
+
+
+
+	*/
 
 	cout << "Aun no disponible" << endl;
 
@@ -628,6 +677,12 @@ int problema8(void) {
 }
 
 int problema9(void) {
+		
+	/*
+
+
+
+	*/
 
 	cout << "Aun no disponible" << endl;
 
@@ -636,6 +691,12 @@ int problema9(void) {
 }
 
 int problema10(void) {
+	
+	/*
+
+
+
+	*/
 
 	int num = 0, aux = 0, cont = 0, primo = 0;
 
@@ -672,6 +733,12 @@ int problema10(void) {
 }
 
 int problema11(void) {
+	
+	/*
+
+
+
+	*/
 
 	cout << "Aun no disponible" << endl;
 
@@ -680,6 +747,12 @@ int problema11(void) {
 }
 
 int problema12(void) {
+	
+	/*
+
+
+
+	*/
 
 	int num = 0, primo = 0;
 
@@ -719,6 +792,12 @@ int problema12(void) {
 }
 
 int problema13(void) {
+	
+	/*
+
+
+
+	*/
 
 	cout << "Aun no disponible" << endl;
 
@@ -729,6 +808,12 @@ int problema13(void) {
 int palindromo(int num);
 
 int problema14(void) {
+	
+	/*
+
+
+
+	*/
 
 	int a = 0, b = 0, c = 0, palin = 0, mul = 0, aux = 0, mul1 = 0;
 
@@ -801,6 +886,12 @@ int problema14(void) {
 }
 
 int problema15(void) {
+	
+	/*
+
+
+
+	*/
 
 	cout << "Aun no disponible" << endl;
 
@@ -809,6 +900,12 @@ int problema15(void) {
 }
 
 int problema16(void) {
+	
+	/*
+
+
+
+	*/
 
 	cout << "Aun no disponible" << endl;
 
@@ -817,6 +914,12 @@ int problema16(void) {
 }
 
 int problema17(void) {
+	
+	/*
+
+
+
+	*/
 
 	cout << "Aun no disponible" << endl;
 
